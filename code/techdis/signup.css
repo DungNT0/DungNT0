@@ -1,0 +1,22 @@
+.bi-x {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left: 94%;
+}
+.signup_txt {
+    text-align: center;
+}
+#signup_header {
+    margin-top: 20px;
+    font-size: 60px;
+}
+#signup_question {
+    margin-top: 10px;
+    font-size: 20px;
+}
+#signup_login_question_link {
+    text-decoration: none;
+    color: lightseagreen;
+}
