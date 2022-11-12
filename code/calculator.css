@@ -1,0 +1,10 @@
+#result {
+    background-color: white;
+    height: 10px;
+    width: 140px;
+    border: solid 1px grey;
+    padding: 1px 2px;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 5px;
+}

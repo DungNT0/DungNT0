@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Sum AB</title>
+        <link rel="stylesheet" href="calculator.css">
+        <!-- Fonts -->
+        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="container">
+        <form class="form__box" method="post">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Enter number a:</label>
+                <input type="number" class="" id="numb_a">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Enter number b:</label>
+                <input type="number" class="" id="numb_b">
+            </div>
+
+            <button id="add_btn" type="submit" class="form__btn">Add</button>
+            <button id="subtract_btn" type="submit" class="form__btn">Subtract</button>
+            <button id="multi_btn" type="submit" class="form__btn">Multiply</button>
+            <button id="divide_btn" type="submit" class="form__btn">Divide</button>
+
+            <div id="result" class="ans__sum">
+                
+            </div>
+        </form>
+
+        <script>
+            var numbA = document.getElementById('numb_a')
+            var numbB = document.getElementById('numb_b')
+
+            var addBTN = document.getElementById('add_btn')
+            var subtractBTN = document.getElementById('subtract_btn')
+            var multiplyBTN = document.getElementById('multi_btn')
+            var divideBTN = document.getElementById('divide_btn')
+
+            var result = document.getElementById('result_field')
+
+            function add() {
+                for (let i = 0; i < numbA.value; i++) {
+                    for (let index = 0; index < numbB.value; index++) {
+                        result.innerHTML = numbA.value + numbB.value;
+                        console.log(result);
+                       
+                    }
+                    
+
+                }
+            }
+            addBTN.addEventListener('click', add);
+
+        </script>
+    </body>
+</html>
