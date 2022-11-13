@@ -1,0 +1,225 @@
+#hp_log_s1 {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+#hp_log_s1_header {
+    font-size: 30px;
+    padding-top: 34px;
+    margin-left: 3.85%;
+    color: white;
+}
+#hp_log_s2 {
+    background-color: #191919;
+    height: 30px;
+    width: 100%;
+}
+.navbar {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding-top: 3px;
+    margin-left: 3.85%;
+    text-decoration: none;
+}
+.navbar_link {
+    text-decoration: none;
+    color: white;
+}
+.navbar_link:hover {
+    color: white;
+}
+.navbar:hover {
+    cursor: pointer;
+}
+#account {
+    margin-right: 3.85%;
+    float: right;
+}
+#acc_icon {
+    width: 17px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 3px;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-toggle::after {
+    border-top: 0.4em solid;
+}
+#dropdownMenuButton {
+    height: 20px;
+    background-color: #191919;
+    border: none;
+    display: contents;
+}
+#dropdownMenuButton:focus {
+    box-shadow:none !important;
+    outline:0px !important;
+}
+#hp_log_border {
+    border-bottom: black solid 5px;
+}
+#acc_page_container {
+    background-color: black;
+    height: 835px;
+    width: 100%;
+}
+#acc_nav_section {
+    background-color: white;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    height: 529px;
+    margin-top: 80px;
+    margin-left: 7%;
+}
+#acc_follows {
+    width: 90%;
+    height: 250px;
+    background-color: #191919;
+    margin-top: 13px;
+    margin-left: 5%;
+}
+#acc_pic {
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 30%;
+}
+.acc_txt {
+    color: white;
+}
+#acc_name {
+    text-align: center;
+
+}
+#follows_count_div {
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+#followers_count {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+#follows_border {
+    border-right: silver solid 1px;
+    display: inline-block;
+    vertical-align: top;
+    height: 47px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#following_count {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+#acc_nav_menu {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 35px;
+}
+.acc_nav_menu_items {
+    width: 100%;
+    height: 27px;
+    background-color: #191919;
+    border: black solid 1px;
+    text-align: left;
+}
+.acc_nav_menu_items_link {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+.acc_nav_menu_items_link:hover {
+    color: white;
+}
+.acc_nav_menu_items:focus { 
+    box-shadow:none !important;
+    outline:0px !important;
+    background-color: black;
+}
+#my_acc_section {
+    background-color: #191919;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    height: 750px;
+    margin-top: 80px;
+    margin-left: 3%;
+}
+.my_acc_multi_sec {
+    margin-top: 15px;
+    margin-left: 4%;
+}
+#my_acc_head_sec {
+    display: inline-block;
+    vertical-align: top;
+}
+.my_acc_header {
+    font-size: 25px;
+}
+#top_btn_group {
+    margin-top: 15px;
+    margin-right: 4%;
+    float: right;
+}
+.btn {
+    border-radius: 0px;
+}
+.my_acc_bdr {
+    border-bottom: black solid 1px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+#my_acc_personal_sec {
+    height: 305px;
+}
+.input_form {
+    margin-top: 20px;
+}
+label {
+    margin-bottom: 10px;
+}
+input {
+    width: 250px;
+    height: 35px;
+}
+#first_name_field {
+    display: inline-block;
+    vertical-align: top;
+}
+#last_name_field {
+    display: inline-block;
+    margin-left: 12%;
+}
+#my_acc_email_field {
+    display: inline-block;
+    vertical-align: top;
+}
+#my_acc_phone_field {
+    display: inline-block;
+    margin-left: 12%;
+}
+#bottom_btn_group {
+    margin-top: 25px;
+    margin-right: 4%;
+    float: right;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+#footer_txt {
+    color: white;
+    margin-top: 25px;
+    display: inline-block;
+}

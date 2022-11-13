@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+}
+.bi-x {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left: 94%;
+}
+.create_new_pass_txt {
+    text-align: center;
+}
+#create_new_pass_header {
+    margin-top: 20px;
+    font-size: 60px;
+}
+#create_new_pass_intruction {
+    margin-top: 10px;
+    font-size: 20px;
+}
+#create_new_pass_btn {
+    margin-top: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 0px;
+    font-size: 20px;
+    margin-left: 39%;
+    background-color: #191919;
+    color: white;
+}
+#resetpass3_link {
+    text-decoration: none;
+}

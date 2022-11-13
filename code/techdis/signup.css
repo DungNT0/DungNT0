@@ -1,3 +1,6 @@
+body {
+    width: 100%;
+}
 .bi-x {
     text-decoration: none;
     color: black;
@@ -19,4 +22,31 @@
 #signup_login_question_link {
     text-decoration: none;
     color: lightseagreen;
+}
+#signup_form {
+    margin-top: 40px;
+    margin-left: 39%;
+    display: inline-block;
+    font-size: 20px;
+}
+.input_form {
+    margin-bottom: 20px;
+}
+.input_field {
+    border: none;
+    border-bottom: black solid 1px;
+    width: 300px;
+}
+.input_field:focus::placeholder {
+    color: transparent;
+}
+#signup_btn {
+    margin-top: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 0px;
+    font-size: 20px;
+    margin-left: 39%;
+    background-color: #191919;
+    color: white;
 }

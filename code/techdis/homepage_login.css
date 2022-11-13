@@ -1,0 +1,220 @@
+#hp_log_s1 {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+#hp_log_s1_header {
+    font-size: 30px;
+    padding-top: 34px;
+    margin-left: 3.85%;
+    color: white;
+}
+#hp_log_s2 {
+    background-color: #191919;
+    height: 30px;
+    width: 100%;
+}
+.navbar {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding-top: 3px;
+    margin-left: 3.85%;
+    text-decoration: none;
+}
+.navbar_link {
+    text-decoration: none;
+    color: white;
+}
+.navbar_link:hover {
+    color: white;
+}
+.navbar:hover {
+    cursor: pointer;
+}
+#account {
+    margin-right: 3.85%;
+    float: right;
+}
+#acc_icon {
+    width: 17px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 3px;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-toggle::after {
+    border-top: 0.4em solid;
+}
+#dropdownMenuButton {
+    height: 20px;
+    background-color: #191919;
+    border: none;
+    display: contents;
+}
+#dropdownMenuButton:focus {
+    box-shadow:none !important;
+    outline:0px !important;
+}
+#hp_log_border {
+    border-bottom: black solid 5px;
+}
+#hp_log_s3 {
+    background-color: #191919;
+    height: 500px;
+    width: 100%;
+}
+#hp_log_s3_black_box {
+    background-color: black;
+    height: 300px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10%;
+    width: 80%;
+}
+.hp_log_s3_txt {
+    color: white;
+    text-align: center;    
+}
+#hp_log_s3_header {
+    font-size: 80px;
+    margin-top: 66px;
+}
+#hp_log_s3_slogan {
+    font-size: 16px;
+    margin-top: 20px;
+}
+#hp_log_s4 {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+#hp_log_s4_navbar {
+    background-color: #191919;
+    width: 70%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.hp_log_s4_nav {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    margin-top: 14px;
+    margin-left: 3.85%;
+}
+#hp_log_s4_nav_rightend {
+    float: right;
+    margin-right: 3.85%;
+
+}
+#hp_log_s4_src_icon {
+    vertical-align: top;
+    display: inline-block;
+    height: 22px;
+    margin-right: 20px;
+}
+#hp_log_s4_src_icon:hover {
+    cursor: pointer;
+}
+#hp_log_s4_crt_post {
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    margin-top: -4px;
+}
+#hp_log_s4_allpost:hover {
+    cursor: pointer;
+}
+#hp_log_s4_cat1:hover {
+    cursor: pointer;
+}
+#hp_log_s4_cat2:hover {
+    cursor: pointer;
+}
+#hp_log_s4_cat3:hover {
+    cursor: pointer;
+}
+.hp_log_s4_post_link {
+    text-decoration: none;
+    display: block;
+}
+.hp_log_s4_post {
+    background-color: #191919;
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 17.5%;
+    display: inline-block;
+}
+.hp_log_s4_post_img {
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.hp_log_s4_post_txt {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #191919;
+    margin-left: 1%;
+    color: white;
+    width: 39%;
+    height: 300px;
+}
+.hp_log_s4_post_author_icon {
+    width: 40px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+.hp_log_s4_post_author_name {
+    margin-top: 12px;
+    font-size: 16px;
+}
+.hp_log_s4_post_date_time {
+    font-size: 12px;
+}
+.hp_log_s4_post_title {
+    margin-top: 12px;
+    font-size: 30px;
+}
+.bi-three-dots-vertical {
+    display: inline-block;
+    color: white;
+    margin-left: -14px;
+    margin-top: 15px;
+}
+.hp_log_s4_post_lac {
+    margin-left: -50px;
+    margin-top: 115px;
+}
+.hp_log_s4_post_border {
+    width: 100%;
+    border-top: white solid 1px;
+    margin-bottom: 10px;
+}
+.hp_log_s4_post_cmts {
+    vertical-align: top;
+    display: inline-block;
+}
+.bi-heart {
+    vertical-align: top;
+    float: right;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+#footer_txt {
+    color: white;
+    margin-top: 25px;
+    display: inline-block;
+}
+

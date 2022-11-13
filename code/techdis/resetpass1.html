@@ -9,9 +9,9 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="resetpass1.css">
 
-    <title>TechDis - Log In</title>
+    <title>TechDis - Reset Password</title>
 </head>
 
 <body>
@@ -20,34 +20,23 @@
     </a>
 
     <div>
-        <div class="login_txt" id="login_header">
-            Login
+        <div class="create_new_pass_txt" id="create_new_pass_header">
+            Create New Password
         </div>
 
-        <div class="login_txt" id="login_question">
-            Don't have an account? <a id="signup_login_question_link" href="signup.html">Sign Up</a>
+        <div class="create_new_pass_txt" id="create_new_pass_intruction">
+            Please enter your email address
         </div>
 
-        <div id="login_form">
+        <div id="create_new_pass_form">
             <div class="input_form" id="email_field">
                 <label id="email_label" for="email_label">Email</label> <br>
                 <input class="input_field" type="email" placeholder="Enter your email here" id="email_input">
             </div>
-
-            <div class="input_form" id="pass_field">
-                <label id="pass_label" for="pass_label">Password</label> <br>
-                <input class="input_field" type="password" placeholder="Enter your password here" id="pass_input">
-            </div>
-        </div>
-        
-        <div>
-            <a id="resetpass1" href="resetpass1.html">
-                Forgot your password?
-            </a>
         </div>
 
-        <a id="homepage_login_link" href="homepage_login.html">
-            <button type="button" id="login_btn">Login</button>
+        <a id="resetpass2_link" href="resetpass2.html">
+            <button type="button" id="create_new_pass_btn">Create Password</button>
         </a>
     </div>
 </body>
