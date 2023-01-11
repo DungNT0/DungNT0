@@ -50,3 +50,7 @@ body {
     background-color: #191919;
     color: white;
 }
+
+#homepage_signup_link {
+    text-decoration: none;
+}
